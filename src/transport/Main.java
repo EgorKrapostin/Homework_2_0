@@ -1,3 +1,5 @@
+package transport;
+
 public class Main {
     public static void main(String[] args) {
         Car lada = new Car("", "", 1.7F, "желтый", 0, "Россия");

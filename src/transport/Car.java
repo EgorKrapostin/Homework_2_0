@@ -1,3 +1,5 @@
+package transport;
+
 public class Car {
     private String brand;
     private String model;
@@ -50,7 +52,7 @@ public class Car {
 
     @Override
     public String toString() {
-        return "Car{" +
+        return "transport.Car{" +
                 "brand='" + brand + '\'' +
                 ", model='" + model + '\'' +
                 ", engineVolume=" + engineVolume +
